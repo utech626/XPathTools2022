@@ -2,7 +2,7 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
         <Identity Id="XPathInformation.C4F263DA-654D-48CB-91ED-2CEE05D3EF97" Version="0.2.1" Language="en-US" Publisher="Bob Brown" />
-        <DisplayName>XPath Tools for VS 2022</DisplayName>
+        <DisplayName>+XPath Tools for VS 2022</DisplayName>
         <Description xml:space="preserve">Run XPaths and XPath functions. Browse through results at the click of a button.
 Track and copy XPaths incl. XML namespaces in various formats, taking the hassle out of complex documents.</Description>
         <MoreInfo>https://github.com/utech626/XPathTools2022/wiki</MoreInfo>
@@ -32,6 +32,6 @@ Track and copy XPaths incl. XML namespaces in various formats, taking the hassle
         <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
     </Assets>
     <Prerequisites>
-        <Prerequisite Id="Microsoft.Net.Component.4.5.TargetingPack" Version="[15.0.25904.2,]" DisplayName=".NET Framework 4.5 Targeting pack" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
 </PackageManifest>

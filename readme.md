@@ -1,5 +1,5 @@
 # XPath Tools
-This project is a VS 20222 Version of the XPath Tool Extension. 
+This project is a VS 20222 Version of the XPath Tool Extension. A new project was needed as shared project contained too many dependencies on older versions of Visual Studio.
 
 A Visual Studio Extension which can run any XPath and XPath function; navigates through results at the click of a button. Can show and copy any XPath incl. XML namespaces, avoiding XML namespace induced headaches. Keeps track of the current XPath via the statusbar.
 
