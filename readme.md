@@ -1,5 +1,5 @@
 # XPath Tools
-Comming soon VS 20222 version of the XPath Tool Extension. 
+A Pre-Release is available at  [VS 20222 XPath Tool Extension] (https://github.com/utech626/XPathTools2022). 
 
 A Visual Studio Extension which can run any XPath and XPath function; navigates through results at the click of a button. Can show and copy any XPath incl. XML namespaces, avoiding XML namespace induced headaches. Keeps track of the current XPath via the statusbar.
 
@@ -13,8 +13,6 @@ Open Visual Studio, go to _Tools &rarr; Extensions and Updates... &rarr; Online_
 
 ### Visual Studio Marketplace
 Download the VS 2019 Version VSIX-file directly from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=UliWeltersbach.XPathInformation).
-
-Comming soon the VS 2022 Version VSIX-file.
 
 ## Usage
 See the [Wiki](https://github.com/uli-weltersbach/XPathTools/wiki).
