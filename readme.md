@@ -1,11 +1,14 @@
 # XPath Tools
-A Pre-Release is available at  [VS 20222 XPath Tool Extension] (https://github.com/utech626/XPathTools2022). 
+A Pre-Release is available at [VS2022 XPath Tool Extension](https://github.com/utech626/XPathTools2022). 
 
 A Visual Studio Extension which can run any XPath and XPath function; navigates through results at the click of a button. Can show and copy any XPath incl. XML namespaces, avoiding XML namespace induced headaches. Keeps track of the current XPath via the statusbar.
 
-![XPath Tools screenshot.](https://github.com/uli-weltersbach/XPathTools/wiki/images/PackagePreviewImage.png)
+A special thanks to [Uli Weltersbach](https://github.com/uli-weltersbach) for his work on the original extension. This repo is a clone of the VS 2019 version of the extension upgraded to VS 2022.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/q8j6j61ho4oa23ww/branch/master?svg=true)](https://ci.appveyor.com/project/uli-weltersbach/xpathtools/branch/master)
+**The Release folder contains Beta 1 of the Visual Studio 2022 Extension**
+
+[XPath Tools screenshot.](https://github.com/utech626/XPathTools2022/blob/master/ReasonCodeExample.XPathTools/Assets/PackagePreviewImage.png)
+
 
 ## Installation
 ### Visual Studio
@@ -15,10 +18,13 @@ Open Visual Studio, go to _Tools &rarr; Extensions and Updates... &rarr; Online_
 Download the VS 2019 Version VSIX-file directly from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=UliWeltersbach.XPathInformation).
 
 ## Usage
-See the [Wiki](https://github.com/uli-weltersbach/XPathTools/wiki).
+See the [Wiki](https://github.com/utech626/XPathTools2022/wiki).
 
 ## Feature requests & bug reports
-Please use [Issues](https://github.com/uli-weltersbach/XPathTools/issues) for feature requests and bug reports.
+Please use [Issues](https://github.com/utech626/XPathTools2022/issues) for feature requests and bug reports.
 
 ## Feedback
-If you find this plugin helpful, consider rating it on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=UliWeltersbach.XPathInformation#review-details).
+TBA
+
+## Notes
+The **unit tests project** does not currently build/run if you download code, unload the unit test project before building.
