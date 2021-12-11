@@ -1,2 +1,3 @@
-﻿v0.2: Beta 1 of the VS 2022 Extension
+﻿v1.0: General Release of VS 2022 Extension
+v0.2: Beta 1 of the VS 2022 Extension
 v0.1: Code Base from Uli Weltersbach Project. Conversion from VS 2019 Project

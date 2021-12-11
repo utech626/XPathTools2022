@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="XPathInformation.C4F263DA-654D-48CB-91ED-2CEE05D3EF97" Version="0.2.1" Language="en-US" Publisher="Robert Brown" />
-        <DisplayName>+XPath Tools for VS 2022</DisplayName>
+        <Identity Id="XPathInformation.C4F263DA-654D-48CB-91ED-2CEE05D3EF97" Version="1.0.0" Language="en-US" Publisher="Robert Brown" />
+        <DisplayName>XPath Tools for VS 2022</DisplayName>
         <Description xml:space="preserve">Run XPaths and XPath functions. Browse through results at the click of a button.
 Track and copy XPaths incl. XML namespaces in various formats, taking the hassle out of complex documents. Thanks for Uli Weltersbach for the excellent extension, this is a VS 2022 version of that extension. </Description>
         <MoreInfo>https://github.com/utech626/XPathTools2022/wiki</MoreInfo>
@@ -11,7 +11,6 @@ Track and copy XPaths incl. XML namespaces in various formats, taking the hassle
         <Icon>Assets\PackageIcon.png</Icon>
         <PreviewImage>Assets\PackagePreviewImage.png</PreviewImage>
         <Tags>XPath, XML, Web.config, App.config, Sitecore, VS2022</Tags>
-        <Preview>true</Preview>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
